@@ -14,6 +14,5 @@ function validateTemparature(value, type) {
     }
     return false;
 }
-
 console.log(validateTemparature(30, 'celsius'));
 console.log(validateTemparature(121, 'f'));
